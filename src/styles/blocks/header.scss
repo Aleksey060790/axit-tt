@@ -1,0 +1,38 @@
+@font-face {
+  font-family: 'Myriad Pro Regular';
+  src: url("./fonts/MyriadPro-Regular.ttf") format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.header {
+  height: 85px;
+  width: 100%;
+  background-color: #000;
+
+  &__link {
+    font-family: 'Myriad Pro Regular';
+    color: #c9c9c9;
+    font-size: 35px;
+    text-decoration: none;
+
+    @include onMobile {
+      display: none;
+    }
+  }
+
+  &__logo {
+    width: 85px;
+    height: 30px;
+  }
+}
+
+.header-wrapper {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 20px;
+
+  @include onMobile {
+    justify-content: center;
+  }
+}

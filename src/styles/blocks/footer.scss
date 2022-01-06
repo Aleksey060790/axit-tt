@@ -1,0 +1,54 @@
+.footer {
+  height: 110px;
+  width: 100%;
+
+  &__wrapper {
+    display: flex;
+    justify-content: space-between;
+
+    @include onTablet {
+      flex-wrap: wrap;
+      flex-direction: column;
+      align-items: center;
+    }
+  }
+
+  &__info {
+    max-width: 330px;
+
+    @include onTablet {
+      text-align: center;
+    }
+  }
+
+  &__title {
+    font-family: 'Myriad Pro Regular';
+    color: #333;
+    font-weight: normal;
+    font-size: 35px;
+  }
+
+  &__subtitle {
+    font-family: 'Myriad Pro Regular';
+    color: #c9c9c9;
+    font-weight: normal;
+    font-size: 14px;
+  }
+
+  &__icons {
+    max-width: 380px;
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+    padding-top: 30px;
+
+    @include onTablet {
+      gap: 20px;
+    }
+  }
+
+  &__icon {
+    width: 60px;
+    height: 60px;
+  }
+}

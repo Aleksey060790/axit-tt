@@ -1,0 +1,50 @@
+.contacts {
+  min-height: 660px;
+  background-color: #fff;
+  text-align: center;
+
+  &__title {
+    text-align: center;
+    font-family: 'Myriad Pro Regular';
+    color: #000;
+    font-weight: normal;
+    font-size: 35px;
+    text-transform: uppercase;
+  }
+
+  &__divider {
+    width: 65px;
+    height: 2px;
+    background-color: #ff8b38;
+    margin-top: 30px;
+    display: inline-block;
+  }
+
+  &__subtitle {
+    font-family: 'Myriad Pro Regular';
+    color: #c9c9c9;
+    font-weight: normal;
+    font-size: 14px;
+    margin-top: 30px;
+  }
+
+  &__button {
+    width: 140px;
+    height: 40px;
+    background-color: #ff8b38;
+    margin: 90px 0 160px 0;
+    color: #fff;
+    font-size: 15px;
+    border: none;
+    bottom: 0px;
+    left: 0px;
+    cursor: pointer;
+    transition-duration: 0.30s;
+
+    &:hover {
+      background-color: #fff;
+      border: 3px solid #ff8b38;
+      color: #ff8b38;
+    }
+  }
+}

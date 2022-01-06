@@ -1,0 +1,16 @@
+@import './styles/utils/mixins';
+
+@import './styles/blocks/container.scss';
+@import './styles/blocks/logo.scss';
+@import './styles/blocks/header.scss';
+@import './styles/blocks/main.scss';
+@import './styles/blocks/form.scss';
+@import './styles/blocks/contacts.scss';
+@import './styles/blocks/contactsForm.scss';
+@import './styles/blocks/footer.scss';
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
