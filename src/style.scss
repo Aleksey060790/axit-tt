@@ -9,6 +9,10 @@
 @import './styles/blocks/contactsForm.scss';
 @import './styles/blocks/footer.scss';
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   margin: 0;
   padding: 0;
