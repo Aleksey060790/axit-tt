@@ -43,12 +43,23 @@
     padding-top: 30px;
 
     @include onTablet {
-      gap: 20px;
+      gap: 15px;
     }
   }
 
   &__icon {
+    display: block;
     width: 60px;
     height: 60px;
+    transition-duration: 0.30s;
+
+    &:hover {
+      transform: scale(1.1);
+    }
+
+    @include onTablet {
+      width: 40px;
+      height: 40px;
+    }
   }
 }
